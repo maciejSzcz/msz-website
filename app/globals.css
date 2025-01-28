@@ -1,0 +1,21 @@
+@import "tailwindcss";
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background: black;
+}
+
+@layer utilities {
+    .text-balance {
+        text-wrap: balance;
+    }
+
+    .mask-image-gradient {
+        mask-image: linear-gradient(
+            to bottom,
+            black 0,
+            black 50%,
+            transparent 50%
+        );
+    }
+}
